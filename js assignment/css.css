@@ -1,0 +1,60 @@
+/* CSS styles */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.title {
+    color: #000000;
+    border: 20px;
+    text-align: center;
+    height: 120px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+      margin: 0px;
+      background: rgb(185,184,184);
+      background-size: 180% 180%;
+    }
+
+li {
+      display:inline;
+      margin: 0 0 0 5px;
+      font-family: 'Open Sans', sans-serif;
+}
+
+.preto {
+     height: 50px;
+     background-color: #000000;
+     color: white;
+     float: left;
+     outline: none;
+     cursor: pointer;
+     font-size: 17px;
+     width: 100%;
+     padding: 0px;
+     text-align: left;
+}
+
+.subtitle {
+     font-family: 'mermaid', sans-serif;
+     color: #000000;
+     margin: 10px;
+}
+
+p {
+     margin: 10px;
+}
+
+.recuo {
+     margin: 30px;
+}
+
+.destaque {
+     color: red;
+}
+
+
+

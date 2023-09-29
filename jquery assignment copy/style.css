@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.corpo {
+    width: 400px; 
+    margin: 0 auto;
+    background-color: #92ddff;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+
+.rodape {
+  background-color: #92ddff;
+  padding: 20px 0;
+  text-align: center;
+}

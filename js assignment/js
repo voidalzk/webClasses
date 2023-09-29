@@ -1,0 +1,105 @@
+/*
+exercício 1
+var hash = '#'
+var conc = '#'
+var i = 0;
+
+for (; i <= 7; i++) {
+  hash = hash.concat(conc)
+  console.log(hash);
+}
+*/
+
+/*
+exercício 2
+function criadorTabuleiro (lin, col) {
+  let tabuleiro = ""
+      for (i = 0; i < lin; i++) {
+        for (j = 0; j < col; j++) {
+          if((i + j) % 2 == 0) {
+              tabuleiro += "#";
+          } else {
+              tabuleiro += " ";
+          }
+        }
+        tabuleiro += "\n";
+      }
+      return tabuleiro;
+}
+ 
+console.log(criadorTabuleiro(10, 10))
+*/
+
+/*
+exercício 3
+function somador() {
+  let soma = 0;
+  var i = 0;
+
+  for (; i < a.length; i++) {
+    soma += a[i];
+  }
+  return soma;
+}
+console.log(somador(a));
+*/
+
+/*
+exercício 4
+function reverse(array) {
+  const div = Math.floor(array.length / 2);
+  for (var i = 0; i < div; i++) {
+    const tmp = array[i];
+    array[i] = array[array.length - 1 - i];
+    array[array.length - 1 - i] = tmp;
+  }
+
+  return array;
+}
+
+var a = [1, 2, 3];
+console.log(reverse(a));
+*/
+
+/*
+exercício 5
+function contaLetras(string, letra) {
+  var contador = 0;
+  var letraEncontrada
+  for (let i = 0; i <= string.length; i++) {
+    if (string[i] === letra) {
+      contador++
+      letraEncontrada = contador
+    }
+  }
+    return letraEncontrada;
+ }
+var s = "Aula de web1"
+console.log(contaLetras(s, "e"));
+*/
+
+/*
+exercício 6
+function procuraSubStr(string, trecho) {
+  var posicao = 0;
+  for (; posicao <= string.length - trecho.length; posicao++) {
+    let encontrou = true;
+    for (var i = 0; i < trecho.length; i++) {
+      if (string[posicao + i] !== trecho[i]) {
+        encontrou = false;
+        break;
+      }
+    }
+    if (encontrou) {
+      return posicao;
+    }
+  }
+  return -1;
+}
+
+var s = "Aula de web1";
+console.log(procuraSubStr(s, "web1"));
+console.log(procuraSubStr(s, "web2"));
+*/
+
+
